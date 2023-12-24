@@ -5,6 +5,8 @@ import Login from "../pages/Login";
 import PrivetRoute from "./PrivetRoute";
 import DashboardLayout from "../layouts/DashboardLayout";
 import TodoForm from "../pages/TodoForm";
+import Regelation from "../pages/Registration";
+import Registration from "../pages/Registration";
 
 const Router = createBrowserRouter([
   {
@@ -47,6 +49,10 @@ const Router = createBrowserRouter([
   {
     path: "/login",
     element: <Login></Login>,
+  },
+  {
+    path: "/signUp",
+    element: <Registration></Registration>,
   },
   {
     path: "/todoForm",
